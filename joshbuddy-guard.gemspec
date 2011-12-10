@@ -2,7 +2,7 @@
 Kernel.load File.expand_path('../lib/guard/version.rb', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'guard'
+  s.name        = 'joshbuddy-guard'
   s.version     = Guard::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Thibaud Guillaume-Gentil']
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = 'Guard is a command line tool to easily handle events on file system modifications.'
 
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project = 'guard'
+  s.rubyforge_project = 'joshbuddy-guard'
 
   s.add_dependency 'thor',     '~> 0.14.6'
   s.add_dependency 'ffi',      '>= 0.5.0'
